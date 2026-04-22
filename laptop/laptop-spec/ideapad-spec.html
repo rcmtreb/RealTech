@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Real Tech</title>
+        <link rel="icon" type="image/png" href="../../logoimg/Rlogo.png">
+        <link rel="shortcut icon" href="../../logoimg/Rlogo.png">
         <link rel="stylesheet" href="./css/spec.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">        
     </head>   
@@ -27,19 +29,38 @@
             <section class="container">
                 <div class="slider-wrapper">
                     <div class="slider">
-                        <img  id="slider-1" src="../laptops/ideapads/ideapad3.png" alt="ideapads">
-                        <img  id="slider-2" src="../laptops/ideapads/ideapad2.png" alt="ideapads">
-                        <img  id="slider-3" src="../laptops/ideapads/ideapad4.png" alt="ideapads">
-                        <img  id="slider4" src="../laptops/ideapads/ideapad5.png" alt="ideapads">
-                        <img  id="slider5" src="../laptops/ideapads/ideapad6.png" alt="ideapads">
+                        <div class="slide" id="slider-1">
+                            <img src="../laptops/ideapads/ideapad3.png" alt="ideapads">
+                            <a class="slider-arrow prev" href="#slider-5" aria-label="Previous image">&#10094;</a>
+                            <a class="slider-arrow next" href="#slider-2" aria-label="Next image">&#10095;</a>
+                        </div>
+                        <div class="slide" id="slider-2">
+                            <img src="../laptops/ideapads/ideapad2.png" alt="ideapads">
+                            <a class="slider-arrow prev" href="#slider-1" aria-label="Previous image">&#10094;</a>
+                            <a class="slider-arrow next" href="#slider-3" aria-label="Next image">&#10095;</a>
+                        </div>
+                        <div class="slide" id="slider-3">
+                            <img src="../laptops/ideapads/ideapad4.png" alt="ideapads">
+                            <a class="slider-arrow prev" href="#slider-2" aria-label="Previous image">&#10094;</a>
+                            <a class="slider-arrow next" href="#slider-4" aria-label="Next image">&#10095;</a>
+                        </div>
+                        <div class="slide" id="slider-4">
+                            <img src="../laptops/ideapads/ideapad5.png" alt="ideapads">
+                            <a class="slider-arrow prev" href="#slider-3" aria-label="Previous image">&#10094;</a>
+                            <a class="slider-arrow next" href="#slider-5" aria-label="Next image">&#10095;</a>
+                        </div>
+                        <div class="slide" id="slider-5">
+                            <img src="../laptops/ideapads/ideapad6.png" alt="ideapads">
+                            <a class="slider-arrow prev" href="#slider-4" aria-label="Previous image">&#10094;</a>
+                            <a class="slider-arrow next" href="#slider-1" aria-label="Next image">&#10095;</a>
+                        </div>
                     </div>
                     <div class="slider-nav">
-                        <a href="#slider-1"></a>
-                        <a href="#slider-2"></a>
-                        <a href="#slider-3"></a>
-                        <a href="#slider-4"></a>  
-                        <a href="#slider-5"></a>  
-                        <a href="#slider-6"></a>                        
+                        <a href="#slider-1" aria-label="Go to image 1"></a>
+                        <a href="#slider-2" aria-label="Go to image 2"></a>
+                        <a href="#slider-3" aria-label="Go to image 3"></a>
+                        <a href="#slider-4" aria-label="Go to image 4"></a>
+                        <a href="#slider-5" aria-label="Go to image 5"></a>
                     </div>                                       
                 </div>        
             </section>

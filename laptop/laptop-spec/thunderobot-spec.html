@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Real Tech</title>
+        <link rel="icon" type="image/png" href="../../logoimg/Rlogo.png">
+        <link rel="shortcut icon" href="../../logoimg/Rlogo.png">
         <link rel="stylesheet" href="./css/spec.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">        
     </head>   
@@ -27,12 +29,20 @@
             <section class="container">
                 <div class="slider-wrapper">
                     <div class="slider">
-                        <img  id="slider-1" src="../laptops/thunderobot/thunderobot2.png" alt="thunder">
-                        <img  id="slider-2" src="../laptops/thunderobot/thunderobot1.png" alt="thunder">
+                        <div class="slide" id="slider-1">
+                            <img src="../laptops/thunderobot/thunderobot2.png" alt="thunder">
+                            <a class="slider-arrow prev" href="#slider-2" aria-label="Previous image">&#10094;</a>
+                            <a class="slider-arrow next" href="#slider-2" aria-label="Next image">&#10095;</a>
+                        </div>
+                        <div class="slide" id="slider-2">
+                            <img src="../laptops/thunderobot/thunderobot1.png" alt="thunder">
+                            <a class="slider-arrow prev" href="#slider-1" aria-label="Previous image">&#10094;</a>
+                            <a class="slider-arrow next" href="#slider-1" aria-label="Next image">&#10095;</a>
+                        </div>
                     </div>
                     <div class="slider-nav">
-                        <a href="#slider-1"></a>
-                        <a href="#slider-2"></a>                 
+                        <a href="#slider-1" aria-label="Go to image 1"></a>
+                        <a href="#slider-2" aria-label="Go to image 2"></a>
                     </div>                                       
                 </div>        
             </section>
